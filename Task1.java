@@ -11,6 +11,6 @@ public static void main(String[] args){
 	int scores = input.nextInt();
 	
 	sum = sum + scores;}
-	System.out.println(sum);
+	System.out.println("the sum of the number is " + sum);
 	}
 }
