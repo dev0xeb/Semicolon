@@ -20,17 +20,17 @@ int sum = 0;
 for (int student = 0; student < numberOfStudents; student++) {
 	System.out.println("Enter scores for Student " + (student + 1));
 	for(int studentScores = 0; studentScores < numberOfSubjects; studentScores++) {
-	System.out.println("Enter the student score in subject " +(studentScores + 1));
+	System.out.println("Enter the student score in subject " + (studentScores + 1));
 	int score = input.nextInt();
 		if(score > 100 || score < 0){
-		System.out.println("Invalid score, Enter the student score in subject " +(studentScores + 1));
+		System.out.println("Invalid score, Enter the student score in subject " + (studentScores + 1));
 		score= input.nextInt();
 	
 		}
 	   
 		scores[student][studentScores] = score;
 		sum += score;
-		break;
+		
 	}
 
 	double average = (double) sum / numberOfSubjects;
