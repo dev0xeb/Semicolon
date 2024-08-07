@@ -12,7 +12,7 @@ public class PersonalityTest {
 
 	System.out.println();
 	String[] personalityQuestions = { "Introvert/Extrovert.\n Do you prefer to focus on the outer world, Enter A for Yes or B for No.",
-					"Do you gain energy from being around people, Enter A for Yes or B for No.",
+					"Do you gain energy from being around people, Enter A  /for Yes or B for No.",
 					"I prefer to work on projects myself. Enter A for Yes or B for No.",
 					"I find it easy to start conversations with strangers. Enter A for Yes or B for No.",
 					"I enjoy being the center of attention. Enter A for Yes or B for No.",
@@ -191,7 +191,7 @@ public class PersonalityTest {
 		if (Thinking > Feeling){
 		System.out.print("T");
 		}else{
-		System.out.print("F");}
+		System.out.print("F");}  
 
 		if (Judging > Perceiving){
 		System.out.print("J");
