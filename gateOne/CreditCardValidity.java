@@ -40,13 +40,13 @@ public class CreditCardValidity {
 		number = number / 10 + number % 10;
 
 		additonRightToLeft += number;}
-		//System.out.print(additonRightToLeft);
+		System.out.print(additonRightToLeft);
 
 	for(int rightToLeft = cardNumber.length()-1; rightToLeft >= 0; rightToLeft-=2) {
 		int numbers = Integer.parseInt(String.valueOf(cardNumber.charAt(rightToLeft)));
 		oddTotal += numbers;
 		}
-		//System.out.print(oddTotal);
+		System.out.print(oddTotal);
 	
 	System.out.println("**Credit Card Number: " + cardNumber);
 	System.out.println("**Credit Card Digit Length: " + cardNumber.length());
