@@ -29,7 +29,7 @@ public class CreditCardValidity {
 	System.out.println("**Credit Card type: Discover Card");}
 
 	else{
-	System.out.println("Invalid Card");
+	System.out.println("**Credit Card type: Invalid Card");
 	}
 	}
 
