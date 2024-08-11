@@ -1,5 +1,5 @@
 import java.util.Scanner;
-import java.util.Arrays;
+
 public class CreditCardValidity {
 	public static void main(String[] args) {
 	Scanner input = new Scanner(System.in);
@@ -29,7 +29,7 @@ public class CreditCardValidity {
 	System.out.println("**Credit Card type: Discover Card");}
 
 	else{
-	System.out.println("**Credit Card type: Invalid Card");
+	System.out.println("**Credit Card type: Unknown Card");
 	}
 	}
 
@@ -40,13 +40,13 @@ public class CreditCardValidity {
 		number = number / 10 + number % 10;
 
 		additonRightToLeft += number;}
-		System.out.print(additonRightToLeft);
+		//System.out.print(additonRightToLeft);
 
-	for(int rightToLeft = cardNumber.length()-1; rightToLeft >= 0; rightToLeft-=2) {
-		int numbers = Integer.parseInt(String.valueOf(cardNumber.charAt(rightToLeft)));
+	for(int oddIndex = cardNumber.length()-1; oddIndex >= 0; oddIndex-=2) {
+		int numbers = Integer.parseInt(String.valueOf(cardNumber.charAt(oddIndex)));
 		oddTotal += numbers;
 		}
-		System.out.print(oddTotal);
+		//System.out.print(oddTotal);
 	
 	System.out.println("**Credit Card Number: " + cardNumber);
 	System.out.println("**Credit Card Digit Length: " + cardNumber.length());

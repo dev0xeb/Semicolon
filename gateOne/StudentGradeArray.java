@@ -24,11 +24,15 @@ int sum = 0;
 for (int student = 0; student < numberOfStudents; student++) {
 	System.out.println();
 	System.out.println("Entering scores for Student " + (student + 1));
+
 		//iterate through each subject
 		for(int studentScores = 0; studentScores < numberOfSubjects; studentScores++) {
 			System.out.println();
 			System.out.println("Enter the student score in subject " + (studentScores + 1));
 			int score = input.nextInt();
+			if(score < 0 || score > 100){
+			System.out.println("Invalid score, the student's scores must be between 1 - 100");
+			}
 			System.out.println("Saving >>>>>>>>>>>>>>>>");
 			System.out.println("Saved successfully");
 				if(score > 100 || score < 0){

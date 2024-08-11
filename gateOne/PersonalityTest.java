@@ -48,127 +48,130 @@ public class PersonalityTest {
 	String newUserInput = userInput.toUpperCase();
 	
 		if (newUserInput == "A" || newUserInput == "B"){
-		break;
-			}
+		break;}
+		/*else{
+		System.out.println("Invalid Input. Enter A or B");
+		continue;
+			}*/
 
 	switch(displayQuestions) {
 		case 0:
-			if (userInput == "A")
+			if (newUserInput == "A")
 				Extrovert++;
-			else if (userInput == "B")
+			else if (newUserInput == "B")
 				Introvert++;
 			break;
 		case 1:
-			if (userInput == "A")
+			if (newUserInput == "A")
 				Extrovert++;
-			else if (userInput == "B")
+			else if (newUserInput == "B")
 				Introvert++;
 			break;
 		case 2:
-			if (userInput == "A")
+			if (newUserInput == "A")
 				Extrovert++;
-			else if (userInput == "B")
+			else if (newUserInput == "B")
 				Introvert++;
 			break;
 		case 3:
-			if (userInput == "A")
+			if (newUserInput == "A")
 				Extrovert++;
-			else if (userInput == "B")
+			else if (newUserInput == "B")
 				Introvert++;
 			break;
 		case 4:
-			if (userInput == "A")
+			if (newUserInput == "A")
 				Extrovert++;
-			else if (userInput == "B")
+			else if (newUserInput == "B")
 				Introvert++;
 			break;
 		case 5:
-			if (userInput == "A")
+			if (newUserInput == "A")
 				Sensing++;
-			else if (userInput == "B")
+			else if (newUserInput == "B")
 				Intuition++;
 			break;
 		case 6:
-			if (userInput == "A")
+			if (newUserInput == "A")
 				Sensing++;
-			else if (userInput == "B")
+			else if (newUserInput == "B")
 				Intuition++;
 			break;
 		case 7:
-			if (userInput == "A")
+			if (newUserInput == "A")
 				Sensing++;
-			else if (userInput == "B")
+			else if (newUserInput == "B")
 				Intuition++;
 			break;
 		case 8:
-			if (userInput == "A")
+			if (newUserInput == "A")
 				Sensing++;
-			else if (userInput == "B")
+			else if (newUserInput == "B")
 				Intuition++;
 			break;
 		case 9:
-			if (userInput == "A")
+			if (newUserInput == "A")
 				Sensing++;
-			else if (userInput == "B")
+			else if (newUserInput == "B")
 				Intuition++;
 			break;
 		case 10:
-			if (userInput == "A")
+			if (newUserInput == "A")
 				Thinking++;
-			else if(userInput == "B")
+			else if(newUserInput == "B")
 				Feeling++;
 			break;
 		case 11:
-			if (userInput == "A")
+			if (newUserInput == "A")
 				Thinking++;
-			else if(userInput == "B")
+			else if(newUserInput== "B")
 				Feeling++;
 			break;
 		case 12:
-			if (userInput == "A")
+			if (newUserInput == "A")
 				Thinking++;
-			else if(userInput == "B")
+			else if(newUserInput == "B")
 				Feeling++;
 			break;
-		case 13:if (userInput == "A")
+		case 13:if (newUserInput == "A")
 				Thinking++;
-			else if(userInput == "B")
+			else if(newUserInput == "B")
 				Feeling++;
 			break;
 		case 14:
-			if (userInput == "A")
+			if (newUserInput == "A")
 				Thinking++;
-			else if(userInput == "B")
+			else if(newUserInput == "B")
 				Feeling++;
 			break;
 		case 15:
-			if (userInput == "A")
+			if (newUserInput == "A")
 				Judging++;
-			else if (userInput == "B")
+			else if (newUserInput == "B")
 				Perceiving++;
 			break;
 		case 16:
-			if (userInput == "A")
+			if (newUserInput == "A")
 				Judging++;
-			else if (userInput == "B")
+			else if (newUserInput == "B")
 				Perceiving++;
 			break;
 		case 17:
-			if (userInput == "A")
+			if (newUserInput == "A")
 				Judging++;
-			else if (userInput == "B")
+			else if (newUserInput == "B")
 				Perceiving++;
 			break;
 		case 18:
-			if (userInput == "A")
+			if (newUserInput == "A")
 				Judging++;
-			else if (userInput == "B")
+			else if (newUserInput == "B")
 				Perceiving++;
 			break;
 		case 19:
-			if (userInput == "A")
+			if (newUserInput == "A")
 				Judging++;
-			else if (userInput == "B")
+			else if (newUserInput == "B")
 				Perceiving++;
 			break;
 		default:
@@ -177,7 +180,7 @@ public class PersonalityTest {
 			}
 		}
 
-		/*System.out.println("Your MBTI personality Test result is: ");
+		System.out.println("Your MBTI personality Test result is: ");
 		if (Extrovert > Introvert){
 		System.out.print("E");
 		}else{
@@ -196,13 +199,13 @@ public class PersonalityTest {
 		if (Judging > Perceiving){
 		System.out.print("J");
 		}else{
-		System.out.print("P");}*/
+		System.out.print("P");}
 
-		System.out.println("Your MBTI personality Test result is: ");
+		/*System.out.println("Your MBTI personality Test result is: ");
         	System.out.print((Extrovert > Introvert ? "E" : "I"));
        		System.out.print((Sensing > Intuition ? "S" : "N"));
         	System.out.print((Thinking > Feeling ? "T" : "F"));
-        	System.out.print((Judging > Perceiving ? "J" : "P"));
+        	System.out.print((Judging > Perceiving ? "J" : "P"));*/
 	}
 }
 		
