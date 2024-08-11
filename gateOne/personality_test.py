@@ -30,7 +30,7 @@ feeling = 0
 judging = 0
 perceiving = 0
 
- for display_questions in range (len(personality_questions)):
+for display_questions in range (len(personality_questions)):
     print = personality_questions[display_questions]
     user_input = input(f'{personality_questions[display_questions]}. Enter A/B: ').strip().upper()
     if user_input == 'A' or user_input == 'B':
@@ -57,7 +57,6 @@ perceiving = 0
     else:
         print('Invalid Input, Enter A/B ')
         
-print('Your MBTI personality Test Result is: ')
 if extrovert > introvert:
     print('E')
 else:
@@ -73,5 +72,5 @@ else:
 if judging > feeling:
     print('J')
 else:
-    print('F')
+    print('P')
                 

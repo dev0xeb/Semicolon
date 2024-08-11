@@ -18,11 +18,11 @@ print(f'The estimated date of your next period is {next_start_date} to {next_end
 
 print()
 ovulation_start_date = last_start_date + timedelta(days = (cycle_length/2) - 2)
-ovulation_end_date = ovulation_start_date + timedelta(days = 1)
+ovulation_end_date = ovulation_start_date + timedelta(days =(cycle_length/2) + 1)
 print(f'Your estimated Ovulation Date is {ovulation_start_date} to {ovulation_end_date}')
 
 print()
-safe_period_start = last_start_date + timedelta(days = (cycle_length/2) + 2)
+safe_period_start = next_end_date + timedelta(days = 1)
 safe_period_end = safe_period_start + timedelta(days = (cycle_length/2) - 1)
 print(f'Your estimated Safe Period is {safe_period_start} to {safe_period_end}')
 print()
