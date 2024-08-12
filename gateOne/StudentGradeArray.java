@@ -1,4 +1,3 @@
-import java.util.Arrays;
 import java.util.Scanner;
 public class StudentGradeArray {
 	public static void main(String[] args) {
@@ -14,13 +13,12 @@ int numberOfSubjects = input.nextInt();
 System.out.println("Saving >>>>>>>>>>>>>>>>");
 System.out.println("Saved successfully");
 
-int[][] scores = new int[numberOfStudents][numberOfSubjects]; //holds scores for each student and subject. holding the size of the number of students and number of subjects. 
-int[] studentsum = new int[numberOfStudents]; //storing the sum
-double[] studentaverage = new double[numberOfStudents]; //storing the average for ths scores
+int[][] scores = new int[numberOfStudents][numberOfSubjects]; 
+int[] studentsum = new int[numberOfStudents]; 
+double[] studentaverage = new double[numberOfStudents];
 int sum = 0;
 
 //iterating the inputs for each students
-//iterates from student variable from 0 to the number of students length.
 for (int student = 0; student < numberOfStudents; student++) {
 	System.out.println();
 	System.out.println("Entering scores for Student " + (student + 1));
@@ -30,9 +28,6 @@ for (int student = 0; student < numberOfStudents; student++) {
 			System.out.println();
 			System.out.println("Enter the student score in subject " + (studentScores + 1));
 			int score = input.nextInt();
-			if(score < 0 || score > 100){
-			System.out.println("Invalid score, the student's scores must be between 1 - 100");
-			}
 			System.out.println("Saving >>>>>>>>>>>>>>>>");
 			System.out.println("Saved successfully");
 				if(score > 100 || score < 0){
@@ -48,6 +43,7 @@ for (int student = 0; student < numberOfStudents; student++) {
 	
 	studentaverage[student] = (double) studentsum[student] / numberOfSubjects;
 }
+
 //Printing each students summary
 System.out.println();
 for (int student = 0; student < numberOfStudents; student++) {
