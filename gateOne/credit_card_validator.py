@@ -22,13 +22,13 @@ for right_to_left in range(len(card_number) -2, -1, -2):
     if number > 9:
         number = number - 9
     right_to_left_total += number
-print(right_to_left_total)
+#print(right_to_left_total)
 
 odd_total = 0
 for odd_index in range(len(card_number)-1, -1, -2):
     numbers = int(card_number[odd_index])
     odd_total += numbers
-print(odd_total)
+#print(odd_total)
 
 print(f'**Credit Card Number: {card_number}')
 print(f'**Credit Card Digit Length: {len(card_number)}')

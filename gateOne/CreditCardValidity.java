@@ -6,11 +6,18 @@ public class CreditCardValidity {
 	
 	int additonRightToLeft = 0;
 	int oddTotal = 0;
+	String cardNumber;
 
+	while(true){
 	System.out.println("Welcome to credit card validator where you can get all information regarding your CreditCard");
 	System.out.println("Enter your Credit Card number ");
-	String cardNumber = input.next();
-
+	cardNumber = input.next();
+		if (numeric(cardNumber)){
+		break;}
+		else{
+		System.out.println("Invalid Input, Enter a valid Credit Card number ");
+		}
+	}
 	System.out.println();
 	System.out.println("*********************************************************");
 	if (cardNumber.length() < 13 || cardNumber.length() > 16){

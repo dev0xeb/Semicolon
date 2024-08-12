@@ -4,12 +4,25 @@ public class StudentGradeArray {
 	Scanner input = new Scanner(System.in);
 
 System.out.println("Welcome to Lagbaja Schools");
+int numberOfStudents = -1;
 
+while (numberOfStudents < 0){
 System.out.println("Enter the number of students: ");
-int numberOfStudents = input.nextInt();
+numberOfStudents = input.nextInt();
 
+if (isInteger())
+	if (numberOfStudents < 0){
+		System.out.print("Invalid number, Enter a valid number of students: ");}
+	}
+
+int numberOfSubjects = -1;
+while (numberOfSubjects < 0) {
 System.out.println("Enter the number of Subjects: ");
-int numberOfSubjects = input.nextInt();
+numberOfSubjects = input.nextInt();
+	if (numberOfSubjects < 0){
+		System.out.print("Invalid input, enter a valid number: ");}
+	}
+
 System.out.println("Saving >>>>>>>>>>>>>>>>");
 System.out.println("Saved successfully");
 
