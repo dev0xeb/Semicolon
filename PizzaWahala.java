@@ -9,9 +9,14 @@ int orderNumber = -1;
 
 while(orderNumber < 0){
 System.out.println("\nEnter the number of people you would like to order for(Each person for 1 slice of pizza): ");
-orderNumber = input.nextInt();
-	if (orderNumber < 0){
+String orderNumberString = input.nextLine();
+	try{
+		orderNumber = Integer.parseInt(orderNumberString);		
+		if (orderNumber < 0){
 		System.out.print("Invalid Input, Enter a valid number you would like to order for: ");
+		}
+		} catch (NumberFormatException e) {
+		System.out.println("Invalid input, please enter a number.");
 		}
 	}
 System.out.println("Below is the information of the type of Pizza we have and the price information, look through carefully");
