@@ -33,7 +33,7 @@ for student in range(student_number):
         score = -1
         while score < 0 or score > 100:
             try:
-                score = int(input(f'Enter the student score in subject in {student_scores + 1}: '))
+                score = int(input(f'Enter the student score in subject {student_scores + 1}: '))
                 if score < 0 or score > 100:
                     print('Invalid score')
                 else:
@@ -50,5 +50,5 @@ for student in range(student_number):
     for student_scores in range(number_of_subject):
         print(f'{scores[student][student_scores]}')
     print(f'The total score for student {student + 1} is {student_sum[student]}')
-    print(f'The average score for student {student + 1} is {student_average[student]}')
+    print(f'The average score for student {student + 1} is {student_average[student]:.2f}')
     
