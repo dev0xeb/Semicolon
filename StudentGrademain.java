@@ -177,16 +177,16 @@ public class StudentGrademain
 	System.out.println("Class Summary");
 
 	if (sumStudent1 > sumStudent2 && sumStudent1 > sumStudent3 && sumStudent1 > sumStudent4)
-		System.out.print("The best graduating student is Student 1 scoring " + sumStudent1);
+		System.out.println("The best graduating student is Student 1 scoring " + sumStudent1);
 
 	else if (sumStudent2 > sumStudent1 && sumStudent2 > sumStudent3 && sumStudent2 > sumStudent4)
-		System.out.print("The best graduating student is Student 2 scoring " + sumStudent2);
+		System.out.println("The best graduating student is Student 2 scoring " + sumStudent2);
 	
 	else if (sumStudent3 > sumStudent1 && sumStudent3 > sumStudent2 && sumStudent3 > sumStudent4)
-		System.out.print("The best graduating student is Student 3 scoring " + sumStudent3);
+		System.out.println("The best graduating student is Student 3 scoring " + sumStudent3);
 
 	else  
-		System.out.print("The best graduating student is Student 4 scoring " + sumStudent4);
+		System.out.println("The best graduating student is Student 4 scoring " + sumStudent4);
 
 
 
