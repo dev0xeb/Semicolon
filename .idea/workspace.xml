@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc16e586-e564-4984-b769-1ffcb10c3a59" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PhoneBook.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PhoneBook/Contact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PhoneBook/ContactMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PhoneBook/ContactMethods.java" afterDir="false" />
-    </list>
+    <list default="true" id="fc16e586-e564-4984-b769-1ffcb10c3a59" name="Changes" comment="&quot;afterphasegate&quot;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,6 +20,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "dev0xeb"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/dev0xeb/Semicolon",
+    "accountId": "f706cf39-d69f-498c-ae5b-7b06e7668fa1"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -94,11 +95,25 @@
       <workItem from="1724522459595" duration="13552000" />
       <workItem from="1724692218094" duration="4000" />
       <workItem from="1725386464906" duration="3389000" />
+      <workItem from="1725914765598" duration="435000" />
     </task>
+    <task id="LOCAL-00001" summary="&quot;afterphasegate&quot;">
+      <option name="closed" value="true" />
+      <created>1725915011414</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725915011414</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;afterphasegate&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;afterphasegate&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
